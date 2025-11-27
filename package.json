@@ -7,7 +7,7 @@
 
   "scripts": {
     "test": "jest",
-    "coverage": "c8 --reporter=lcov --reporter=text npm test",
+    "coverage": "c8 --exclude 'src/.internal/**' --reporter=lcov --reporter=text npm test",
     "coveralls": "c8 report --reporter=text-lcov | coveralls"
   },
   "author": "",
