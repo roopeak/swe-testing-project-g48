@@ -1,3 +1,5 @@
+// This file is a part of the first phase plan
+
 import capitalize from '../src/capitalize.js'
 
 describe("Capitalization of a string", () => {

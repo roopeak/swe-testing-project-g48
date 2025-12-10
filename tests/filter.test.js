@@ -1,3 +1,5 @@
+// This file is a part of the first phase plan
+
 import filter from '../src/filter.js'
 
 test('retains all elements', () => {
