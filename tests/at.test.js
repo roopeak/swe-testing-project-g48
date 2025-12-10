@@ -15,3 +15,11 @@ test("returns undefined for non-existing paths", () => {
 
   expect(result).toEqual([2, undefined, undefined]);
 });
+
+test("handles empty paths array", () => {
+  const object = { a: 1, b: 2 };
+
+  const result = at(object, []);
+
+  expect(result).toEqual([]);
+});
