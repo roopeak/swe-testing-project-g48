@@ -1,5 +1,3 @@
-// This file is a part of the first phase plan
-
 import filter from '../src/filter.js'
 
 test('retains all elements', () => {
@@ -59,7 +57,6 @@ test('invalid predicate (null)', () => {
     expect(() => filter(array, predicate)).toThrow(TypeError);
 });
 
-// Test below here are generated with AI
 test('predicate is called with value, index and array', () => {
     const array = ['a', 'b', 'c'];
     const calls = [];
